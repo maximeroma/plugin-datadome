@@ -1,7 +1,7 @@
 # The name of your plugin as displayed in the Plugins Catalog web UI.
-displayName: DataDome Plugin Experiment
+displayName: DataDome Plugin Experimentation
 
-type: provider
+type: middleware
 
 # The import path of your plugin.
 import: github.com/maximeroma/plugin-datadome
