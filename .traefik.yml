@@ -8,6 +8,7 @@ import: github.com/maximeroma/plugin-datadome
 
 # A brief description of what your plugin is doing.
 summary: A Traefik plugin to integrate DataDome bot protection.
+iconPath: .assets/icon.png
 
 # Configuration data for your plugin.
 # This is mandatory,

@@ -1,3 +1,7 @@
+<p align="center">
+  <img src=".assets/icon.png" alt="Logo" width="200"/>
+</p>
+
 ## Description
 
 This plugin allows you to protect your web applications against bots and fraudulent traffic by integrating [DataDome](https://datadome.co) directly into Traefik. Each incoming HTTP request is analyzed by DataDome, and malicious requests are automatically blocked before reaching your backend services.
