@@ -4,7 +4,7 @@ displayName: DataDome Plugin Experimentation
 type: middleware
 
 # The import path of your plugin.
-import: github.com/maximeroma/plugin-datadome
+import: github.com/maximeroma/traefik-plugin-datadome
 
 # A brief description of what your plugin is doing.
 summary: A Traefik plugin to integrate DataDome bot protection.

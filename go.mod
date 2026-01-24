@@ -1,4 +1,4 @@
-module github.com/traefik/plugin-datadome
+module github.com/maximeroma/traefik-plugin-datadome
 
 go 1.20
 
