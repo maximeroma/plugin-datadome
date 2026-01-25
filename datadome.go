@@ -1,4 +1,4 @@
-package plugin_datadome
+package traefik_plugin_datadome
 
 import (
 	"context"
