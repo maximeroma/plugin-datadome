@@ -8,9 +8,9 @@ This plugin allows you to protect your web applications against bots and fraudul
 
 ## Environment Variables
 
-| Variable                    | Required | Description                          |
-|-----------------------------|----------|--------------------------------------|
-| `DATADOME_SERVER_SIDE_KEY`  | Yes      | Your DataDome Server-Side API Key    |
+| Variable                   | Required | Description                       |
+| -------------------------- | -------- | --------------------------------- |
+| `DATADOME_SERVER_SIDE_KEY` | Yes      | Your DataDome Server-Side API Key |
 
 ### Configuration
 
