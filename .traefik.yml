@@ -15,3 +15,4 @@ iconPath: .assets/icon.png
 # and Plugins Catalog will try to execute the plugin with the data you provide as part of its startup validity tests.
 testData:
   endpoint: "api.datadome.co"
+  dataServerSideKey: "your-server-side-key" # or set the DATADOME_SERVER_SIDE_KEY environment variable

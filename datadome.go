@@ -10,7 +10,8 @@ import (
 )
 
 type Config struct {
-	Endpoint string `json:"endpoint"`
+	Endpoint          string `json:"endpoint"`
+	DataServerSideKey string `json:"dataServerSideKey"`
 }
 
 func CreateConfig() *Config {
@@ -24,9 +25,12 @@ type DataDomePlugin struct {
 }
 
 func New(ctx context.Context, next http.Handler, config *Config, name string) (http.Handler, error) {
-	serverSideKey := os.Getenv("DATADOME_SERVER_SIDE_KEY")
+	serverSideKey := config.DataServerSideKey
 	if serverSideKey == "" {
-		return nil, fmt.Errorf("DATADOME_SERVER_SIDE_KEY environment variable is not set")
+		serverSideKey = os.Getenv("DATADOME_SERVER_SIDE_KEY")
+	}
+	if serverSideKey == "" {
+		return nil, fmt.Errorf("dataServerSideKey or DATADOME_SERVER_SIDE_KEY environment variable are not set")
 	}
 	ddClient, err := modulego.NewClient(
 		serverSideKey,
