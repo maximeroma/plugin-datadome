@@ -1,5 +1,5 @@
 <p align="center">
-  <img src=".assets/icon.png" alt="Logo" width="200"/>
+  <img src="https://raw.githubusercontent.com/maximeroma/traefik-plugin-datadome/main/.assets/icon.png" alt="Logo" />
 </p>
 
 ## Description
